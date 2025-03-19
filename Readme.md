@@ -1,50 +1,139 @@
-# milestone 1
-folder creation and github push
+# E-commerce
 
-# mileston 2
-login page frontend created
 
-# milestone 3
-server.js backend setup
+## Milestone-1
 
-# milestone 4
- sign up frontend created
+- Got overview of the e-commerce project Tech Stack.
+- MongoDB,nodeJS,expressJS,reactJS
 
-# milestone 5
-  user schema, signup post route created
+## Milestone 2:
 
-# milestone 6
- login route created
+- Worked on login Page.
+- Structure of react.
+- Using Tailwind css.
+- Used React-Dom
 
-# milestone 7
- home page created
+## Milestone-3
 
-# milestone 8
-product page creating
+- Implemented Express on the backend
+- Used MongoDBAtlas to create a cluster
+- Used mongoose to connect MongoDb with the backend
+- Made some error-handling changes
 
-# milestone 9
-product schema creating, product post route
+## Milestone-4
 
-# milestone 10
-dynamic image displaying frontend
+- Installed JSON token
+- Created the Multer file
 
-# milestone 11
-dynamic image display backend
+## Milestone-5
 
-# milestone 12
-my product page crud fronted
+- Created the SignUp page
+- Used Tailwind css
 
-# milestone 13 , 14
-my product crud backend
+## Milestone-6
 
-# milestone 15
-navbar
+- Encrypt the Password:
+- Use bcrypt to hash the user's password during signup.
+- Save the hashed password in the database instead of plain text.
+- Store Complete User Data:
+- Save all the user's data (e.g., name, email, etc.) in the database while ensuring that the password remains encrypted.
 
-# milestone 16
-product Detail page created
+## Milestone-7
 
-# milestone 17
-updated product and user schema with cart. created add to cart route and updated product detail page.
+- Login Endpoint
+- This endpoint accepts user credentials (email/username and password), retrieves the corresponding user from the database, and validates the - - password using bcrypt.
+- If the credentials are valid, it returns a JWT token for authentication.
 
-# milestone 18
- created an endpoint to display the products into the cart.
+## Milestone 8
+
+- Create the Card Component:
+- Design a reusable card component with props for product details (e.g., name, image, price).
+- Design the Homepage Layout:
+- Set up a grid layout or flexbox for displaying multiple cards neatly.
+
+## Milestone 9
+
+- Created the Createproduct.jsx
+- Collects product details such as name, description, category, tags, price, and stock.
+- Allows users to upload multiple images.
+- Displays a preview of uploaded images.
+- Uses useState for state management.
+
+## Milestone 10
+
+- Define product schema using Mongoose (name, description, price, image URL)
+- Add validation for required fields and data types
+- Create a POST endpoint to receive and store product data in MongoDB
+
+## Milestone 11
+
+- Create an API endpoint to send all product data.
+- Fetch data from the backend.
+- Pass it to the product card component.
+- Display the data dynamically.
+
+## Milestone 12
+
+- Create an API endpoint that filters and retrieves data from MongoDB based on the user's email.
+- Fetch data on the frontend by calling this API.
+- Dynamically display the data using the previously created product card component.
+
+## Milestone 13
+
+- Create an API endpoint that receives new data.
+- Use MongoDB’s update operation to modify the existing data.
+- Add an Edit button to the product card.
+- When clicked, the existing data is sent to a form.
+- Auto-fill the form with previous data.
+- Allow users to modify the data and save changes.
+
+## Milestone 14
+
+- Create an API endpoint to delete a product from MongoDB using its ID.
+- Implement a delete button in the frontend on each product card.
+- Send a delete request to the backend when the button is clicked.
+
+## Milestone 15
+
+- Uses React Router for navigation.
+- Created navigation bar.
+
+## Milestone 16
+
+- Create a new page that displays all product data.
+- Ensure each product has a quantity selection option.
+- Add an "Add to Cart" button for each product.
+
+## Milestone 17
+
+- Created the cart schema to store products
+
+## Milestone 18
+
+- Created an Backend endpoint for cart page
+- An endpoint to get products inside cart for user
+
+## Milestone 19
+
+- Created cart frontend page and display the products
+- For each product added an option to increase and decrease quantity using + and - buttons.
+- Created an Backend endpoint for increase and decrease quantity
+
+## Milestone 20
+
+- Created an Backend endpoint that will sent user data
+- Created frontend profile page
+- Displaying profile photo, name and email in one section
+- Another section to display address and add an button called "Add address"
+- Display "No address found" if it is not found
+
+## Milestone 21
+
+- Created address form frontend page
+- Created an state that will store input address
+- Navigating address in profile to this form page.
+
+## Milestone 22
+
+- Created an endpoint that will receive the address from address form in frontend
+- Added the address to the address array inside user collection.
